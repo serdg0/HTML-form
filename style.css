@@ -7,9 +7,9 @@ main{
     background-color: white;
     border: 1px solid #c7c7c7;
     padding: 15px;
+    padding-bottom: 0;
     margin-left: 450px;
     margin-right: 450px;
-    height: 606px;
 }
 header{
     display: flex;
@@ -139,11 +139,23 @@ a{
     justify-content: center;
 }
 .form-footer{
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
     font-size: 10px;
     color: #8d9096;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: #ECEEF1;
+    margin-left: -16px;
+    margin-right: -16px;
+    border: 1px solid #c7c7c7;
+    border-bottom: 0px;
+    border-top: 0;
+}
+#form-footer-fit{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .form-space{
     height: 20px;
@@ -153,8 +165,8 @@ a{
     font-size: 10px;
     color: #444;
 }
-.terms{
-    font-size: 10px;
+#terms{
+    margin-bottom: 32px;
 }
 #main-header{
     padding-bottom: 20px;
