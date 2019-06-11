@@ -92,7 +92,7 @@ a{
     justify-content: center;
 }
 .whitelock{
-    background-image: url(/logos/whitelock.png);
+    background-image: url(./logos/whitelock.png);
     height: 1em;
     width: .8em;
     margin-top: 2px;
