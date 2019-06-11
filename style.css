@@ -104,6 +104,8 @@ a{
 }
 .logos-box{
  padding-bottom: 20px;
+ display: flex;
+ justify-content: center;
 }
 .logos{
     display: flex;
